@@ -1,0 +1,5 @@
+# build docker image
+docker build -t your_image_name
+
+# run the docker image
+docker run -p 8000:8000 your_image_name
